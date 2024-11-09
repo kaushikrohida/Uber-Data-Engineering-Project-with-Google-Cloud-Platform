@@ -49,7 +49,19 @@ This project is an end-to-end data engineering solution designed to analyze Uber
 - **Data Export and Storage**: BigQuery as the data warehouse for analysis-ready data.
 - **Visualization**: Looker Studio for creating insightful dashboards based on BigQuery data.
 
-<img width="600" alt="Project Architecture" src="Graphical Representations/Project Architecture.jpg">
+<img width="1258" alt="Project Architecture" src="Graphical Representations/Project Architecture.jpg">
+
+## Data Modeling
+
+<img width="1258" alt="Data Modeling" src="Graphical Representations/Data Modeling.png">
+
+## ETL Pipeline
+
+<img width="1258" alt="Looker Dashbaord" src="Graphical Representations/Looker Dashboard.png">
+
+## Looker Dashboard
+
+<img width="1258" alt="Mage Data Pipeline" src="Graphical Representations/Mage Data Pipeline.png">
 
 ## Technology Stack
 - **Languages**:
