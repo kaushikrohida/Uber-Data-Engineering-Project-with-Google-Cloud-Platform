@@ -57,11 +57,11 @@ This project is an end-to-end data engineering solution designed to analyze Uber
 
 ## ETL Pipeline
 
-<img width="1258" alt="Looker Dashbaord" src="Graphical Representations/Looker Dashboard.png">
+<img width="1258" alt="Mage Data Pipeline" src="Graphical Representations/Mage Data Pipeline.png">
 
 ## Looker Dashboard
 
-<img width="1258" alt="Mage Data Pipeline" src="Graphical Representations/Mage Data Pipeline.png">
+<img width="1258" alt="Looker Dashboard" src="Graphical Representations/Looker Dashboard.png">
 
 ## Technology Stack
 - **Languages**:
@@ -104,3 +104,11 @@ This Uber Data Engineering Project demonstrates the power and flexibility of usi
 - **Insightful Visualization with Looker Studio**: Allows easy exploration of trip data patterns, fare trends, and regional trip behavior.
 
 This project provides a foundation for analyzing transportation data and serves as a framework for implementing similar data engineering solutions across various industries. It showcases a scalable approach to data-driven decision-making in the digital age.
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve the project or fix issues, feel free to open a pull request.
+
+## Contact
+
+For questions or suggestions, please contact [Kaushik Rohida](mailto:rohidakaushik@gmail.com).
