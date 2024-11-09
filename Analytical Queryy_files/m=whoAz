@@ -1,0 +1,12 @@
+"use strict";this.default_r_tvffkgi=this.default_r_tvffkgi||{};(function(_){var window=this;
+try{
+_.qh("whoAz");
+var j5n,k5n;j5n=function(a){if(a&1){const b=_.p();_.H(0,"cfc-message",6)(1,"cfc-message-text");_.O(2,0);_.K();_.H(3,"cfc-message-actions")(4,"button",7);_.P("click",function(){_.t(b);const c=_.Q();return _.w(c.retry())});_.O(5,1);_.K()()()}};k5n=function(a){if(a&1){const b=_.p();_.H(0,"cfc-message",8)(1,"cfc-message-text");_.O(2,2);_.K();_.H(3,"cfc-message-actions")(4,"button",7);_.P("click",function(){_.t(b);const c=_.Q();return _.w(c.dismiss())});_.O(5,3);_.K()()()}};
+_.YBc=class{constructor(a,b){this.cdr=a;this.store=b;this.onDestroy=new _.Se;this.showMutateError=this.showFetchError=!1}ngOnInit(){const a=this.store.select(_.Z4n,{key:"mutate"}).pipe(_.ef(this.onDestroy)),b=this.store.select(_.Z4n,{key:"fetch"}).pipe(_.ef(this.onDestroy));_.Sd([a,b]).subscribe(([c,d])=>{this.showFetchError=d.isActive;this.showMutateError=!this.showFetchError&&c.isActive;this.cdr.markForCheck()})}dismiss(){this.store.dispatch((0,_.Q4n)({key:"mutate"}));this.cdr.markForCheck()}retry(){this.store.dispatch((0,_.R4n)());
+this.cdr.markForCheck()}ngOnDestroy(){this.onDestroy.next()}};_.YBc.\u0275fac=function(a){return new (a||_.YBc)(_.B(_.rm),_.B(_.Qi))};
+_.YBc.\u0275cmp=_.D({type:_.YBc,selectors:[["cfc-purview-picker-starred-errors"]],decls:2,vars:2,consts:()=>[" Stars are not currently available. "," Retry "," Unable to update stars. Please try again. "," Dismiss ",["class"," cfctest-fetch-error-message","type","error",4,"ngIf"],["class"," cfctest-mutate-error-message","type","error",4,"ngIf"],["type","error",1,"cfctest-fetch-error-message"],["mat-button","","color","primary",3,"click"],["type","error",1,"cfctest-mutate-error-message"]],template:function(a,
+b){a&1&&_.F(0,j5n,6,0,"cfc-message",4)(1,k5n,6,0,"cfc-message",5);a&2&&(_.G("ngIf",b.showFetchError),_.A(),_.G("ngIf",b.showMutateError))},dependencies:[_.Jm,_.Am,_.ms,_.ls,_.Gp,_.cs,_.np,_.jp,_.lp,_.kp,_.t$],encapsulation:2,changeDetection:0});
+_.sh();
+}catch(e){_._DumpException(e)}
+}).call(this,this.default_r_tvffkgi);
+// Google Inc.
